@@ -1,0 +1,12 @@
+[submodule "lib/social_investment_analytical_layer"]
+	path = lib/social_investment_analytical_layer
+	url = https://github.com/nz-social-investment-agency/social_investment_analytical_layer.git
+[submodule "social_investment_data_foundation"]
+	path = social_investment_data_foundation
+	url = https://github.com/nz-social-investment-agency/social_investment_data_foundation.git
+[submodule "lib/social_investment_data_foundation"]
+	path = lib/social_investment_data_foundation
+	url = https://github.com/nz-social-investment-agency/social_investment_data_foundation.git
+[submodule "lib/SIAtoolbox"]
+	path = lib/SIAtoolbox
+	url = https://github.com/nz-social-investment-agency/SIAtoolbox.git

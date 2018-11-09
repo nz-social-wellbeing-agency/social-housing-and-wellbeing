@@ -4,14 +4,14 @@ An analysis on the effect of social housing on overall well-being of individuals
 
 
 ## Overview
-This analysis is meant to be a proof of concept for the application of Social Investment Agency’s (SIA’s) wellbeing measurement approach to an actual policy issue of interest, which we have chosen to be State Social Housing. 
+This analysis is meant to be a proof of concept for the application of Social Investment Agencyâ€™s (SIAâ€™s) wellbeing measurement approach to an actual policy issue of interest, which we have chosen to be State Social Housing. 
 
 The analysis uses the General Social Survey data in the IDI, combined with administrative data to look at how placement in social housing impacts on the well-being of people. The method adopted in this paper (and code) aims to move beyond a simple descriptive approach, to instead identify the difference in wellbeing outcomes for people before and after being placed in social housing. This is still not as good an estimate of the true causal impact of social housing as a genuine experimental evaluation, but by providing a dynamic picture of the change in wellbeing outcomes associated with a social housing transition, it significantly enriches the available evidence base. The project aims to provide four important pieces of information to assess the impact of social housing interventions. These are:
 
-* What impact does being placed in social housing have on housing outcomes (i.e. the quality of accommodation for social housing recipients – household crowding, temperature of residence, dampness, and the physical state of the house)?
-* What impact does being placed in social housing have on other outcome domains important to the recipient’s wellbeing (e.g. health, social contact, jobs)?
-* What is the impact of placement in social housing on the recipient’s overall wellbeing?
-* How should we value the gain in recipient’s wellbeing for the purposes of cost-benefit analysis?
+* What impact does being placed in social housing have on housing outcomes (i.e. the quality of accommodation for social housing recipients â€“ household crowding, temperature of residence, dampness, and the physical state of the house)?
+* What impact does being placed in social housing have on other outcome domains important to the recipientâ€™s wellbeing (e.g. health, social contact, jobs)?
+* What is the impact of placement in social housing on the recipientâ€™s overall wellbeing?
+* How should we value the gain in recipientâ€™s wellbeing for the purposes of cost-benefit analysis?
 
 Beyond this, there are two additional objectives relating to the methodology used. These are:
 
@@ -77,5 +77,5 @@ There are 3 distinct streams of analysis for this project-
 1. Open up `rprogs/shiny_house.Rmd`. This is a markdown script that checks for the "shiny house" effect i.e., controlling for the short-term effects of moving into a brand new house. Running this file creates a markdown report in the `output` folder.
 
 ## Getting Help
-If you have any questions email info@sia.govt.nz Tracking number: XXX-XXXX-XXXX
+If you have any questions email info@sia.govt.nz Tracking number: SIA-2018-0140
 

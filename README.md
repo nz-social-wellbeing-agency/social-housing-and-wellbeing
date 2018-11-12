@@ -1,12 +1,13 @@
-# social-housing-and-wellbeing
+# Social-housing-and-wellbeing
 
-An analysis on the effect of social housing on overall well-being of individuals using a combination of GSS Survey and IDI Administrative data.
-
+Using linked administrative and survey data to evaluate the wellbeing impacts of receiving social housing.
 
 ## Overview
-This analysis is meant to be a proof of concept for the application of Social Investment Agency’s (SIA’s) wellbeing measurement approach to an actual policy issue of interest, which we have chosen to be State Social Housing. 
+This analysis presents the first attempt at applying the Social Investment Agency's (SIA's) wellbeing measurement approach to a policy issue.
 
-The analysis uses the General Social Survey data in the IDI, combined with administrative data to look at how placement in social housing impacts on the well-being of people. The method adopted in this paper (and code) aims to move beyond a simple descriptive approach, to instead identify the difference in wellbeing outcomes for people before and after being placed in social housing. This is still not as good an estimate of the true causal impact of social housing as a genuine experimental evaluation, but by providing a dynamic picture of the change in wellbeing outcomes associated with a social housing transition, it significantly enriches the available evidence base. The project aims to provide four important pieces of information to assess the impact of social housing interventions. These are:
+The analysis uses the New Zealand General Social Survey data in the IDI, combined with administrative data to look at how placement in social housing impacts the wellbeing of people.
+
+The method adopted in this paper (and code) aims to move beyond a simple descriptive approach, to instead identify the difference in wellbeing outcomes for people before and after being placed in social housing. While this is still not as good an estimate of the true causal impact of social housing as a genuine experimental evaluation, by providing a dynamic picture of the change in wellbeing outcomes associated with a social housing transition, it significantly enriches the available evidence base. The project aims to provide four important pieces of information to assess the impact of social housing interventions. These are:
 
 * What impact does being placed in social housing have on housing outcomes (i.e. the quality of accommodation for social housing recipients – household crowding, temperature of residence, dampness, and the physical state of the house)?
 * What impact does being placed in social housing have on other outcome domains important to the recipient’s wellbeing (e.g. health, social contact, jobs)?
@@ -18,7 +19,7 @@ Beyond this, there are two additional objectives relating to the methodology use
 * Can linked administrative and survey data be used in the IDI to identify the wellbeing outcomes of people before and after a social policy intervention?
 * What are the key lessons for using the IDI to assess the impact of policy in wellbeing terms?
 
-For the full report on the analysis, refer to https://sia.govt.nz/.
+For the full report on the analysis, refer to https://sia.govt.nz/our-work/measuring-the-impacts-of-social-housing/.
 
 
 ## Dependencies

@@ -23,7 +23,7 @@ For the full report on the analysis, refer to https://swa.govt.nz/our-work/measu
 
 ## Dependencies
 * It is necessary to have an IDI project if you wish to run the code. Visit the Stats NZ website for more information about this.
-* Code dependencies are captured via submodules in this repository. You will find the submodules in the `lib` folder of this repository. To ensure you clone the submodules as well, use `git clone --recursive https://github.com/nz-social-wellbeing-agency/vulnerable_mothers.git`. Regular cloning or downloading of the zip file will result in all the `lib` subfolders being empty. Currently the code dependencies for the vulnerable mothers repository are -
+* Code dependencies are captured via submodules in this repository. You will find the submodules in the `lib` folder of this repository. To ensure you clone the submodules as well, use `git clone --recursive https://github.com/nz-social-wellbeing-agency/social-housing-and-wellbeing.git`. Regular cloning or downloading of the zip file will result in all the `lib` subfolders being empty. Currently the code dependencies for this repository are -
 	* `social_investment_analytical_layer (SIAL)` 
 	* `social_investment_data_foundation (SIDF)` 
 	* `SIAtoolbox`

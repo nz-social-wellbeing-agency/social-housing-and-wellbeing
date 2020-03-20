@@ -3,7 +3,7 @@
 Using linked administrative and survey data to evaluate the wellbeing impacts of receiving social housing.
 
 ## Overview
-This analysis presents the first attempt at applying the Social Investment Agency's (SIA's) wellbeing measurement approach to a policy issue.
+This analysis presents the first attempt at applying the Social Investment Agency's (now the Social Wellbeing Agency) wellbeing measurement approach to a policy issue.
 
 The analysis uses the New Zealand General Social Survey data in the IDI, combined with administrative data to look at how placement in social housing impacts the wellbeing of people.
 
@@ -19,12 +19,11 @@ Beyond this, there are two additional objectives relating to the methodology use
 * Can linked administrative and survey data be used in the IDI to identify the wellbeing outcomes of people before and after a social policy intervention?
 * What are the key lessons for using the IDI to assess the impact of policy in wellbeing terms?
 
-For the full report on the analysis, refer to https://sia.govt.nz/our-work/measuring-the-impacts-of-social-housing/.
-
+For the full report on the analysis, refer to https://swa.govt.nz/our-work/measuring-the-impacts-of-social-housing/.
 
 ## Dependencies
 * It is necessary to have an IDI project if you wish to run the code. Visit the Stats NZ website for more information about this.
-* Code dependencies are captured via submodules in this repository. You will find the submodules in the `lib` folder of this repository. To ensure you clone the submodules as well, use `git clone --recursive https://github.com/nz-social-investment-agency/vulnerable_mothers.git`. Regular cloning or downloading of the zip file will result in all the `lib` subfolders being empty. Currently the code dependencies for the vulnerable mothers repository are -
+* Code dependencies are captured via submodules in this repository. You will find the submodules in the `lib` folder of this repository. To ensure you clone the submodules as well, use `git clone --recursive https://github.com/nz-social-wellbeing-agency/vulnerable_mothers.git`. Regular cloning or downloading of the zip file will result in all the `lib` subfolders being empty. Currently the code dependencies for the vulnerable mothers repository are -
 	* `social_investment_analytical_layer (SIAL)` 
 	* `social_investment_data_foundation (SIDF)` 
 	* `SIAtoolbox`
@@ -58,7 +57,7 @@ This folder contains all the code necessary to build characteristics and service
 ## Instructions to run the social-housing-and-wellbeing project
 ### Step A: Create analysis population and variables
 1. Start a new SAS session
-2. Open `sasprogs/si_control.sas`. Go to the yellow datalines and update any of the parameters that need changing. The one that is most likely to change if you are outside the SIA is the `si_proj_schema`. In case the IDI version that you're pointing to needs to be updated, edit the corresponding variables as well- the variables are `idi_version` and `si_idi_dsnname`. Note that the results in this paper are based on IDI_Clean_20171020. If you have made changes save and close the file.
+2. Open `sasprogs/si_control.sas`. Go to the yellow datalines and update any of the parameters that need changing. The one that is most likely to change if you are outside the Agency is the `si_proj_schema`. In case the IDI version that you're pointing to needs to be updated, edit the corresponding variables as well- the variables are `idi_version` and `si_idi_dsnname`. Note that the results in this paper are based on IDI_Clean_20171020. If you have made changes save and close the file.
 3. Open `sasprogs/si_main.sas` and change the `si_source_path` variable to your project folder directory. Once this is done, run the `si_main.sas` script, which will build the datasets that are needed to do the analysis.
 
 ### Step B: Data Preparation & Analysis
@@ -78,5 +77,5 @@ There are 3 distinct streams of analysis for this project-
 1. Open up `rprogs/shiny_house.Rmd`. This is a markdown script that checks for the "shiny house" effect i.e., controlling for the short-term effects of moving into a brand new house. Running this file creates a markdown report in the `output` folder.
 
 ## Getting Help
-If you have any questions email info@sia.govt.nz Tracking number: SIA-2018-0140
+If you have any questions email info@swa.govt.nz
 

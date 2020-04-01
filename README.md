@@ -22,28 +22,12 @@ Beyond this, there are two additional objectives relating to the methodology use
 For the full report on the analysis, refer to https://swa.govt.nz/our-work/measuring-the-impacts-of-social-housing/.
 
 ## Dependencies
-* It is necessary to have an IDI project if you wish to run the code. Visit the Stats NZ website for more information about this.
-* Code dependencies are captured via submodules in this repository. You will find the submodules in the `lib` folder of this repository. To ensure you clone the submodules as well, use `git clone --recursive https://github.com/nz-social-wellbeing-agency/social-housing-and-wellbeing.git`. Regular cloning or downloading of the zip file will result in all the `lib` subfolders being empty. Currently the code dependencies for this repository are -
-	* `social_investment_analytical_layer (SIAL)` 
-	* `social_investment_data_foundation (SIDF)` 
-	* `SIAtoolbox`
-
-* Once the repository is downloaded and put into your IDI project folder, run the `social_investment_analytical_layer` scripts so that the all the SIAL tables are available for use in your database schema. We strongly recommended using the version in the submodule. Note when you create the SIAL tables the scripts will attempt to access to the following schemas in IDI_Clean (or the archives if you wish to use an older IDI refresh). 
-	* acc_clean
-	* cor_clean
-	* cyf_clean
-	* data
-	* dia_clean
-	* hnz_clean
-	* moe_clean
-	* moh_clean
-	* moj_clean
-	* msd_clean
-    * pol_clean
-	* security
-	* gss_clean
-* If there are specific schemas listed above that you don't have access to, the **SIAL** main script (after it finishes running) will give you a detailed report on which SIAL tables were not created and why.
-* Ensure that you have installed the `SIAtoolbox` library in R. Note that `SIAtoolbox` is not on the CRAN repository, and can be retrieved only from Github. Place this code in a folder in your IDI project, make sure you have the `devtools` package installed and loaded in R and then run `devtools::install("/path/to/file/SIAtoolbox")` in R.
+* It is necessary to have an IDI project if you wish to replicate this work. Visit the Stats NZ website for more information about this.
+* You will find submodules in the `lib` folder of this repository. These submodules are additional repositories that may be required to replicate this project. These repositories are:
+	* social_investment_analytical_layer (SIAL)
+	* social_investment_data_foundation (SIDF)
+	* SIAtoolbox
+* If the repositories are not available on our GitHub page, they may be archived on our previous GitHub page https://github.com/nz-social-investment-agency. Instructions for the installation of each repository can be found in their respective readme files.
 
 ## Folder descriptions
 This folder contains all the code necessary to build characteristics and service metrics. Code is also given to create an outcome variable (highest qualification) for use and as an example of how the more complex variables are created and added to the main dataset.

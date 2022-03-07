@@ -1,4 +1,4 @@
-# Social-housing-and-wellbeing
+# Social Housing and Wellbeing
 
 Using linked administrative and survey data to evaluate the wellbeing impacts of receiving social housing.
 
@@ -59,6 +59,10 @@ There are 3 distinct streams of analysis for this project-
 
 **Shiny House Effect Analysis**
 1. Open up `rprogs/shiny_house.Rmd`. This is a markdown script that checks for the "shiny house" effect i.e., controlling for the short-term effects of moving into a brand new house. Running this file creates a markdown report in the `output` folder.
+
+## Citation
+
+Social Wellbeing Agency (2019). Social housing and wellbeing. Source code. https://github.com/nz-social-wellbeing-agency/social-housing-and-wellbeing
 
 ## Getting Help
 If you have any questions email info@swa.govt.nz
